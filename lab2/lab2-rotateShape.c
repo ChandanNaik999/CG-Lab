@@ -28,7 +28,7 @@ void display (void)
 	//rotate triangle
 	glPushMatrix();
 	glTranslatef(-0.50f , 0.50f, 0.0f);
-	glRotatef(angle , 0.0 , 1.0 , 0.0);
+	glRotatef(angle , 0.0 , 0.0 ,1.0);
 	
     glTranslatef(0.50f, -0.50f, 0.0f);
 
