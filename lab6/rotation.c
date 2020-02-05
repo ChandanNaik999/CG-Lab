@@ -119,7 +119,7 @@ void display(){
 				rotate(result[1][0], result[2][0], angle);
 				translate(result[1][0], result[2][0], points[0][0],points[0][1]);
 				printf("%d %d\n", result[1][0], result[2][0]);
-			
+				translate(result[1][0], result[2][0], 100 ,0);
 				glVertex2i(result[1][0], result[2][0]);
 				resetResult();
 				
