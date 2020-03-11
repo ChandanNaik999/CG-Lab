@@ -1,4 +1,4 @@
-#Stack and Queue Implementation in openGL
+Stack and Queue Implementation in openGL
 
 instructions:
 press i to insert
